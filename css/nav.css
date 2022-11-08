@@ -1,0 +1,72 @@
+nav {
+    position: absolute;
+    top: 130px;
+    background-color: #ebebeb;
+    height: 40px;
+    line-height: 40px;
+    width: 100%;
+}
+
+#n1 {
+    width: 1300px;
+    margin: 0 auto;
+    position: relative;
+    display: table;
+}
+
+#n1 li {
+    width: 118px;
+    float: left;
+    list-style: none;
+    text-align: center;
+}
+
+#n1 #m1 {
+    background-color: #89211b;
+}
+
+#n1 #m1 h3 a {
+    color: #fff
+}
+
+.a h3 a,
+.a ul li a {
+    color: #333;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+.a ul li a {
+    color: #fff;
+}
+
+.a ul {
+    width: 118px;
+    height: 0px;
+}
+
+.a ul li {
+    width: 118px;
+    height: 0px;
+    overflow: hidden;
+}
+
+.a:hover {
+    background-color: #89211b;
+}
+
+.a:hover h3 a {
+    color: #fff;
+}
+
+.a:hover ul {
+    transition: height 0.3s;
+    height: 60px;
+}
+
+.a:hover ul li {
+    transition: height 0.5s;
+    height: 40px;
+}

@@ -1,0 +1,49 @@
+.picture {
+    width: 100%;
+    height: 520px;
+    background-image: url("../image/jju_5.jpg");
+}
+.centerbox {
+    margin: 0 auto;
+    width: 1300px;
+    height: 520px;
+    display: inline-block;
+}
+.centerbox img {
+    width: 100%;
+    height: 100%;
+}
+#forword {
+    width: 86px;
+    height: 100%;
+    float: left;
+    background-color:rgba(0, 0, 0, .5);
+}
+#back {
+    background-color: rgba(0, 0, 0, .5);
+    width: 86.5px;
+    height: 100%;
+    float: right;
+}
+#forwordleft {
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    width: 32px;
+    height: 45px;
+    background: url("../image/slider-arrow.png") no-repeat -192px -142px;
+}
+#backright {
+    position: relative;
+    top: 320px;
+    margin: 0 auto;
+    width: 32px;
+    height: 45px;
+    background: url("../image/slider-arrow.png") no-repeat -80px -142px;
+}
+#forword:hover #forwordleft {
+    background-position:-134px -142px ;
+}
+#back:hover #backright {
+    background-position:-16px -142px ;
+}
